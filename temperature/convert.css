@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/502732106/vector/exotictropical-background.jpg?s=2048x2048&w=is&k=20&c=5whWBbh-_Rn7CUGUcYkchH3sCCqPABqU7RXlW8ZffAs=');
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#converter {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Add your desired background color here or remove this line */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+}

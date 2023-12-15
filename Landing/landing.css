@@ -1,0 +1,64 @@
+/* Your existing styles */
+
+/* Additional styles for navigation links */
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #FF69B4;
+}
+
+/* Additional styles for image caption */
+.image-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width:200px; /* Add margin for better spacing */
+}
+
+.image-caption {
+    position: absolute;
+    top: 50%;
+    right: 0; /* Align text to the right */
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    max-width: 50%;
+    max-height: 50px; /* Limit the width of the text */
+}
+
+/* Additional styles for image slider */
+.slider-container {
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 1500px;
+    height: 500px; /* Maintain aspect ratio */
+}
+
+.slide-content {
+    padding: 20px;
+    max-width: 1500px; /* Adjust the width as needed */
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
